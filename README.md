@@ -7,10 +7,13 @@ Rest in peace, guys. We'll try to stay Charlie Hebdo alive.
 To use it, copy the image and the HTML page on your website, on a dedicaced page or on the main page.
 <br /><br />
 
+An exemple : http://porostase.fr
 
 I don't know if i should let the url of this git, but i let it.<br />
 you can modify the page or remove the credits if you want.
 <br /><br />
+
+
 
 thanks you,<br />
 and a goodbye for the victims.
