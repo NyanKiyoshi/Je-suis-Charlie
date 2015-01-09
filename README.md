@@ -9,8 +9,7 @@ To use it, copy the image and the HTML page on your website, on a dedicaced page
 
 An exemple : http://porostase.fr
 
-I don't know if i should let the url of this git, but i let it.<br />
-you can modify the page or remove the credits if you want.
+You can modify the page as you want, but let the credit link (GitHub link to here in the comments) for the other people.
 <br /><br />
 
 
