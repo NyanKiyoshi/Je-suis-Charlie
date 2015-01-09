@@ -6,39 +6,43 @@
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
 		<style type="text/css">
 			body {
-				background-color: black;				
+				background-color: black;
 			}
-			.je-suis-charlie {
+			body > img {
+				height: auto;
 				display: block;
 				margin: 0 auto;
 				max-width: 100%;
-				height: auto;
 			}
-			.twitter-hashtag-button {
+			a {
+				color: white;
+				bottom : 5px;
+				font-family: sans-serif;
+				font-size: 13px;
+				font-weight: bold;
+				opacity: .5;
 				position: fixed;
 				right: 7px;
-				bottom : 5px;
-				color: #333;
-				text-decoration: none;
-				display: inline-block;
-				background-color: #eee;
-				background-image: -webkit-linear-gradient(#fff,#dedede);
-				background-image: linear-gradient(#fff,#dedede);
-				border: #ccc solid 1px;
-				border-radius: 3px;
-				font-weight: bold;
-				text-shadow: 0 1px 0 rgba(255,255,255,.5);
-				overflow: hidden;
 				padding: 3px;
-				font-size: 13px;
-				font-family: "Open sans", sans-serif;
+				text-decoration: none;
+				transition: opacity .25s ease-in-out;
+				-moz-transition: opacity .25s ease-in-out;
+				-webkit-transition: opacity .25s ease-in-out;
+			}
+			a img {
+				vertical-align: middle;
+			}
+			a:hover {
+				opacity: 1;
 			}
 		</style>
 	</head>
 	<body>
-		<img class="je-suis-charlie" src="Je_suis_Charlie.jpg" />
-		<a target="_blank" href="https://twitter.com/intent/tweet?button_hashtag=JeSuisCharlie" class="twitter-hashtag-button"><img src="data:image/png;
-		base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAANCAYAAACgu+4kAAAAAXNSR0IArs4c6QAAAeNJREFUKM+1kj1oU1EUx3/nfSRpPpqXhCQmhFiKhDpYO+imqAgOpYjgIEWQCG6dAm6l+FDUpZBJED+o4FzroINF0IKDgxSL4CBFMmgJKhJpYp7JS65DzGdnD9zhnnP+P+49/yN0wy5a2IUKo2GvWDSDeXTNQlHixvlH2EWrUytUtG6fR5t8zNJqflQv5r4NYqkiscw1wvEVbq2/Ei23FfbkLgAY3caJdPrQp0p9juvPTtD+XsC+XMF+PqOs5DTjMdB0cJvQ/HPS13IaS4ct/SogXcDi268vbn6snaFehd2fv3CdtXQsxo4/mccfBhFQCtwG92d8765MWfMist0DJB5sbn0bS04jAk4VGg7oJgQtML39Pzk11MXMcRF5A9CbwcNTEx8ChriYXghFwUpAKAKG2RcrRc7XqnbFQ4C5yYh9KWt8DmhtF9HA8HSOaH1A22U+O7Y5OOReVUS2s0ZrLWW4v1HtPW6iFDmvW7WPJm4PpvXBy8t7yz+m/Cr7pd6Ml+r4ERl6+uvT0SfjXmN5yObesiiriH/8HMGIRSgKvkDHOtXmbJzy3SOh9VTAsyAi1T0ApVQQWNjY2Z1dLdWy6CYYOvt9ujOb8VYOhj1PgTujYgb34B/oAHBsIFUG3otImf8VfwFMQ5T6NoyegwAAAABJRU5ErkJggg==" /> Tweet #JeSuisCharlie</a>
+		<img src="Je_suis_Charlie.jpg" />
+		<a href="https://twitter.com/intent/tweet?button_hashtag=JeSuisCharlie"target="_blank">
+			<img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAASABIDASIAAhEBAxEB/8QAGAABAQADAAAAAAAAAAAAAAAAAAYEBwj/xAAnEAABBAEDAwQDAQAAAAAAAAABAgMEBQAGERMHEiEIFDFhFSJRgf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCWtPTzY3Gl6e/0OvlRMhMuvV848TqHCgdxQo/qUk+Rvt9EjN16R6DaQj6Bh1l9TtO2jrCVS5ZI5kOkAqCFj4APgbZhel60vG9DsQL2O2K9hJXEnmxad70EjZvjSSUBP3jr11oqNN6dn1FBPZnX8ptTA9ssLTFBGxWpQ8dwB8J/vzgco29lpr8tN9hXyEQ+dfAlSWyQjuPaD/m2Mj8YDGMYDGMYH//Z" />
+			Tweet #JeSuisCharlie
+		</a>
 
 		<!-- En hommage à Chalie Hebdo et à leur membres victimes de l'assaut. -->
 		<!-- https://github.com/P147x/Je-suis-Charlie -->
