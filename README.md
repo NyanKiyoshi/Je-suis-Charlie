@@ -1,7 +1,7 @@
 # Je-suis-Charlie
 
 Just a simple HTML page to give a tribute to Charlie Hebdo.
-Stay in peace, guys. We'll try to keep Charlie Hebdo alive.
+Rest in peace, guys. We'll try to keep Charlie Hebdo alive.
 <br /><br />
 
 To use it, copy the image and the HTML page on your website, on a dedicaced page or your main page.
